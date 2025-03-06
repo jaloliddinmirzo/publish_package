@@ -53,17 +53,15 @@ class BeautifulDateTime {
     final difference = now.difference(_dateTime);
 
     if (difference.inDays > 365) {
-      final years = (difference.inDays / 365).floor();
-      return '$years ${years == 1 ? 'year' : 'years'} ago';
+      return '${(difference.inDays / 365).floor()} years ago';
     } else if (difference.inDays > 30) {
-      final months = (difference.inDays / 30).floor();
-      return '$months ${months == 1 ? 'month' : 'months'} ago';
+      return '${(difference.inDays / 30).floor()} months ago';
     } else if (difference.inDays > 0) {
-      return '${difference.inDays} ${difference.inDays == 1 ? 'day' : 'days'} ago';
+      return '${difference.inDays} days ago';
     } else if (difference.inHours > 0) {
-      return '${difference.inHours} ${difference.inHours == 1 ? 'hour' : 'hours'} ago';
+      return '${difference.inHours} hours ago';
     } else if (difference.inMinutes > 0) {
-      return '${difference.inMinutes} ${difference.inMinutes == 1 ? 'minute' : 'minutes'} ago';
+      return '${difference.inMinutes} minutes ago';
     } else {
       return 'just now';
     }
