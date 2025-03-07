@@ -1,6 +1,6 @@
 name: beautiful_datetime
 description: A beautiful DateTime formatter package for Flutter applications that provides various formatting options.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/jaloliddinmirzo/publish_package
 
 environment:
