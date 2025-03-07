@@ -1,4 +1,12 @@
-## 0.0.1
+## 0.0.2
+
+- Added ShimmerContainer widget for shimmer loading placeholder
+- Added support for customizing shimmer gradient colors
+- Added support for adjusting animation speed
+- Ensured compatibility with ListView and GridView
+- Added optional rounded corners feature
+- Added option to change shimmer direction (left to right or reverse)
+*## 0.0.1
 
 - Initial release
 - Added BeautifulDateTime class with various formatting options
@@ -10,3 +18,4 @@
 - Added support for ISO date format
 - Added support for custom format
 - Added support for relative time formatting
+*
